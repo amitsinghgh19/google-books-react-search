@@ -12,9 +12,13 @@ function Nav() {
         <span className="blue">g</span>
         <span className="green">l</span>
         <span className="red">e</span>
-        <button type="button" class=" mx-2 btn btn-outline-dark">Search Books</button> 
+       
       </Link>
-      <div>
+
+      <div class="d-flex justify-content-end">
+     
+        <button type="button" class=" mx-2 btn btn-outline-primary">Search Books</button> 
+    
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
@@ -24,11 +28,12 @@ function Nav() {
                  
               }
             >
-              <button type="button" class="btn btn-outline-dark">Saved Books</button> 
+              <button type="button" class="btn btn-outline-primary">Saved Books</button> 
               
             </Link>
           </li>
         </ul>
+       
       </div>
     </nav>
   );

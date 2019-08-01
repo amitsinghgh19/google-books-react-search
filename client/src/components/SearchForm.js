@@ -5,11 +5,11 @@ function SearchForm(props) {
     <div id="searchContainer">
       <center>
       <h3>Book Search</h3>
-      <form id="bookSearch">
+      <form id="bookSearch" class="col-sm-6">
         <label htmlFor="bookInput" form="bookSearch">
-          Enter a book to search:
+        Search the world's most extensive index of full-text books.
         </label>
-        <input
+        <input class="rounded" 
           type="text"
           name="bookInput"
           id="bookInput"
@@ -19,12 +19,12 @@ function SearchForm(props) {
           required={true}
         />
         <br />
-        <button
+        <button 
           className="search"
+          id="searchBtn"
           type="submit"
           onClick={e => props.handleSearchClick(e)}
-        >
-          Search
+        ><i class="fas fa-search mx-2"></i>
         </button>
       </form>
       </center>
