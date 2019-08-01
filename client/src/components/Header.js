@@ -11,16 +11,8 @@ const headerStyle = {
 
 function Header() {
   return (
-    <header style={headerStyle}>
-      <h1>
-        <span className="blue">G</span>
-        <span className="red">o</span>
-        <span className="yellow">o</span>
-        <span className="blue">g</span>
-        <span className="green">l</span>
-        <span className="red">e</span> Books Search
-      </h1>
-      <p>What Would You Like to Read?</p>
+    <header >
+    
     </header>
   );
 }

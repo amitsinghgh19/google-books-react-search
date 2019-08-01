@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer fixed-bottom">
       <span>
         <a
           className="copyright"

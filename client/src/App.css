@@ -34,11 +34,8 @@ h3 {
 
 #searchContainer,
 #resultsContainer {
-  color: rgb(224, 224, 219);
-  background-color: #8a335e;
-  border-radius: 5px;
-  padding: 3.5vw;
-  margin: 2vw;
+  color: black;
+  background-color: rgb(255, 255, 255);
   font-size: 3vw;
 }
 
@@ -137,7 +134,6 @@ form button {
 /* Footer */
 .footer {
   min-height: 200px;
-  position: relative;
   text-align: center;
 }
 
@@ -181,4 +177,15 @@ a.copyright:hover {
     display: flex;
     align-items: flex-start;
   }
+}
+header {
+  padding: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(https://idahovirtualreality.com/wp-content/uploads/2017/06/Google-Books.png);
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:lightgoldenrodyellow
+  
+ 
 }

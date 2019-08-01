@@ -3,19 +3,19 @@ import React from "react";
 function SearchForm(props) {
   return (
     <div id="searchContainer">
+      <center>
       <h3>Book Search</h3>
       <form id="bookSearch">
         <label htmlFor="bookInput" form="bookSearch">
           Enter a book to search:
         </label>
-        <br />
         <input
           type="text"
           name="bookInput"
           id="bookInput"
           form="bookSearch"
           onChange={e => props.handleChange(e)}
-          placeholder="Book Title"
+          placeholder="Search by Title, Author, Description, etc"
           required={true}
         />
         <br />
@@ -27,6 +27,7 @@ function SearchForm(props) {
           Search
         </button>
       </form>
+      </center>
     </div>
   );
 }
