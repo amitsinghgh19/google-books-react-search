@@ -100,6 +100,17 @@ input {
   padding: 0;
 }
 
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+p {
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 1.3em;
+}
+
 h3{
     color: #4285f4;
     font-family: roboto-regular,arial,sans-serif;
@@ -108,7 +119,7 @@ h3{
 
 /* buttons */
 button[disabled] {
-  background-color: rgba(187, 25, 25, 0.584);
+  background-color: #28a745;
 }
 
 button {
@@ -165,7 +176,7 @@ a.copyright {
 }
 
 a.copyright:hover {
-  color: #f9c411;
+  color: #4285f4;
 }
 
 /* Google text color */

@@ -12,13 +12,8 @@ function Nav() {
         <span className="blue">g</span>
         <span className="green">l</span>
         <span className="red">e</span>
-       
-      </Link>
-
-      <div class="d-flex justify-content-end">
-     
         <button type="button" class=" mx-2 btn btn-outline-primary">Search Books</button> 
-    
+      </Link>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
@@ -33,8 +28,6 @@ function Nav() {
             </Link>
           </li>
         </ul>
-       
-      </div>
     </nav>
   );
 }

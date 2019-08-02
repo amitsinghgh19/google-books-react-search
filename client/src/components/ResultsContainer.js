@@ -5,7 +5,9 @@ function ResultsContainer(props) {
   if (props.path === "/") {
     return (
       <div id="resultsContainer">
+        <center>
         <h3>Results Found</h3>
+        </center>
         {props.bookData.map(book => {
           const bookInfo = book.volumeInfo;
           return (
@@ -26,7 +28,9 @@ function ResultsContainer(props) {
     if (props.savedBooks.length > 0) {
       return (
         <div id="resultsContainer">
+          <center>
           <h3>Saved Books</h3>
+          </center>
           {props.savedBooks.map(book => {
             return (
               <BookResult
@@ -46,8 +50,10 @@ function ResultsContainer(props) {
     } else {
       return (
         <div id="resultsContainer">
+          <center>
           <h3>Saved Books</h3>
           <p>No saved books.</p>
+          </center>
         </div>
       );
     }

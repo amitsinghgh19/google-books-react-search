@@ -48,7 +48,7 @@ class BookResult extends React.Component {
   render() {
     return (
       <div
-        className="bookResult"
+        className="bookResult border border-primary"
         id={this.props.id ? this.props.id : null}
         style={{ display: this.state.deleted ? "none" : "block" }}
       >
@@ -83,7 +83,8 @@ class BookResult extends React.Component {
                 {this.state.saved ? "Saved" : "Save"}
               </button>
             ) : (
-              <button
+              <button 
+                className="btn-danger"
                 type="button"
                 name="Delete"
                 onClick={this.handleDeleteClick}
@@ -94,7 +95,7 @@ class BookResult extends React.Component {
             )}
           </div>
         </div>
-        <div className="row">
+        <div>
           {this.props.img ? (
             <img
               src={
@@ -110,6 +111,7 @@ class BookResult extends React.Component {
           ) : null}
           <p>{this.props.description ? this.props.description : "N/A"}</p>
         </div>
+        <br/><br/><br/><br/>
       </div>
     );
   }

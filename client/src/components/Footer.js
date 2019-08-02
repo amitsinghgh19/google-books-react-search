@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer fixed-bottom">
-      {/* <span>
+      <span>
         <a
           className="copyright"
           href="https://github.com/amitsinghgh19"
@@ -13,7 +13,7 @@ function Footer() {
         >
           © Amit Singh 2019
         </a>
-      </span> */}
+      </span>
     </footer>
   );
 }

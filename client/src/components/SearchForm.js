@@ -18,7 +18,7 @@ function SearchForm(props) {
           placeholder="Search by Title, Author, Description, etc"
           required={true}
         />
-        <br />
+       
         <button 
           className="search"
           id="searchBtn"
