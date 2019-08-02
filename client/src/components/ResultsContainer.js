@@ -6,6 +6,7 @@ function ResultsContainer(props) {
     return (
       <div id="resultsContainer">
         <center>
+        <br/>
         <h3>Results Found</h3>
         </center>
         {props.bookData.map(book => {

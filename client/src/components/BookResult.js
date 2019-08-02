@@ -54,7 +54,7 @@ class BookResult extends React.Component {
       >
         <div className="row">
           <div className="aboutBook">
-            <h4>{this.props.title}</h4>
+            <h2>{this.props.title}</h2>
             <p>
               By: {this.props.authors ? this.props.authors.join(", ") : "N/A"}
             </p>
@@ -97,7 +97,7 @@ class BookResult extends React.Component {
         </div>
         <div>
           {this.props.img ? (
-            <img
+            <img className= "img-fluid img-thumbnail"
               src={
                 // if smallthubmail exists on this.props.img use that else if thumbnail exists on this.props.img use that else leave src empty
                 this.props.img.smallThumbnail
