@@ -2,7 +2,7 @@
 
 A simple Book Search app using React JS and Google Books API
 
-Demo: https://google-book-search-by-amit.herokuapp.com/
+Demo: 
 
 # What This Application Does
 
