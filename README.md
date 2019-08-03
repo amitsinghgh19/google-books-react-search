@@ -19,5 +19,5 @@ Demo: https://google-book-search-by-amit.herokuapp.com/
 - [Google Books API](https://developers.google.com/books/?hl=en)
 - [Twitter Bootstrap](http://getbootstrap.com)
 
-Create by : [Amit Singh](https://github.com/amitsinghgh19) © 2019
+Create by : [Amit K Singh](https://github.com/amitsinghgh19) © 2019
 
