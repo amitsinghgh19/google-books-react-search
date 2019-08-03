@@ -1,8 +1,8 @@
 import React from "react";
-import heroImage from "../images/books2.jpg";
+import bgImage from "../images/gbooks1.jpg";
 
 const headerStyle = {
-  backgroundImage: `url(${heroImage})`,
+  backgroundImage: `url(${bgImage})`,
   maxWidth: "100vw",
   height: "30vw",
   backgroundSize: "cover",
@@ -11,7 +11,7 @@ const headerStyle = {
 
 function Header() {
   return (
-    <header >
+    <header>
     
     </header>
   );

@@ -9,7 +9,7 @@ function SearchForm(props) {
         <label htmlFor="bookInput" form="bookSearch">
         Search the world's most extensive index of full-text books.
         </label>
-        <input class="rounded" 
+        <input className="form-control required" 
           type="text"
           name="bookInput"
           id="bookInput"
@@ -20,7 +20,7 @@ function SearchForm(props) {
         />
        
         <button 
-          className="search"
+          className="search btn btn-primary"
           id="searchBtn"
           type="submit"
           onClick={e => props.handleSearchClick(e)}

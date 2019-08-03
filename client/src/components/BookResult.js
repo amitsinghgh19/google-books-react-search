@@ -52,9 +52,9 @@ class BookResult extends React.Component {
         id={this.props.id ? this.props.id : null}
         style={{ display: this.state.deleted ? "none" : "block" }}
       >
-        <div className="row">
+        <div className="row container-fluid">
           <div className="aboutBook">
-            <h2>{this.props.title}</h2>
+            <h4>{this.props.title}</h4>
             <p>
               By: {this.props.authors ? this.props.authors.join(", ") : "N/A"}
             </p>
@@ -67,14 +67,14 @@ class BookResult extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button type="button" name="view">
+                <button className="btn btn-success" type="button" name="view">
                   View
                 </button>
               </a>
             ) : null}
             {// if this.props.path is "/" display save button else display Delete button
             this.props.path === "/" ? (
-              <button
+              <button className="btn btn-primary"
                 type="button"
                 name="save"
                 onClick={this.handleSaveClick}
@@ -84,7 +84,7 @@ class BookResult extends React.Component {
               </button>
             ) : (
               <button 
-                className="btn-danger"
+                className="btn btn-danger"
                 type="button"
                 name="Delete"
                 onClick={this.handleDeleteClick}
@@ -97,7 +97,7 @@ class BookResult extends React.Component {
         </div>
         <div>
           {this.props.img ? (
-            <img className= "img-fluid img-thumbnail"
+            <img className= "img-fluid img-thumbnail" alt="Responsive image"
               src={
                 // if smallthubmail exists on this.props.img use that else if thumbnail exists on this.props.img use that else leave src empty
                 this.props.img.smallThumbnail
@@ -109,7 +109,7 @@ class BookResult extends React.Component {
               alt="book cover"
             />
           ) : null}
-          <p>{this.props.description ? this.props.description : "N/A"}</p>
+          <p className="text-lg-left">{this.props.description ? this.props.description : "N/A"}</p>
         </div>
         <br/><br/><br/><br/>
       </div>
