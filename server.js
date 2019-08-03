@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 
 const mongoose = require("mongoose");
 // If deployed, use the deployed database. Otherwise use the local googlebooks database
-const mongoURL = process.env.PROD_MONGODB || "mongodb://localhost/googlebooks";
+const mongoURL = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
 mongoose
   .connect(mongoURL, { useNewUrlParser: true })
   .then(() => {
