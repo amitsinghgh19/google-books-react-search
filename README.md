@@ -2,8 +2,6 @@
 
 A simple Book Search app using React JS and Google Books API
 
-* [Link to the app hosted on Heroku](https://google-book-search-application.herokuapp.com/)
-
 # What This Application Does
 
 ![Home Page](./client/src/images/homepage.png)
@@ -14,6 +12,7 @@ A simple Book Search app using React JS and Google Books API
 ![Saved Books](./client/src/images/savedpage.png)
 * Saved Books - Renders all books saved to the `Mongo` database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the `Mongo` database.
 
+* [Link to the app hosted on Heroku](https://google-book-search-application.herokuapp.com/)
 
 ## Credits :
 
