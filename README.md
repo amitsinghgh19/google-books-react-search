@@ -18,6 +18,7 @@ Demo:
 - [React JS.](http://facebook.github.io/react/)
 - [Google Books API](https://developers.google.com/books/?hl=en)
 - [Twitter Bootstrap](http://getbootstrap.com)
+- [Font Awesome](https://fontawesome.com/)
 
 Create by : [Amit K Singh](https://github.com/amitsinghgh19) © 2019
 
